@@ -731,10 +731,6 @@ p{
     color: #2E2F42;
 }
 
-.form-content{
-    margin-bottom: 8px;
-}
-
 .modal-input{
     width: 360px;
     height: 40px;
@@ -758,9 +754,6 @@ p{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus > .input-wrap-icon{
-    fill: #4D5AE5;
-}
 
 .comment-wrap{
     margin-bottom: 16px
@@ -846,6 +839,16 @@ p{
 .input-wrap{
     position: relative;
 }
+
+form .form-content{
+    margin-bottom: 8px;
+}
+
+.modal-input:focus > .input-wrap-icon{
+    fill: #4d5ae5;
+}
+
+
 
 
 
