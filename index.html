@@ -357,32 +357,34 @@
     </footer>
     <div class="backdrop is_open">
         <div class="modal">
-            <button type="submit" class="close-btn">
+            <button type="button" class="close-btn">
                 <svg class="close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-icon"></use>
                 </svg>
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form>
-                <label for="user-name" class="label-for-input">Name</label>
-                <input type="text" class="modal-input" id="user-name">
-                <label for="user-phone" class="label-for-input">Phone</label>
-                <input type="text" class="modal-input" id="user-phone">
-                <label for="user-email" class="label-for-input">Email</label>
-                <input type="text" class="modal-input" id="user-email">
-                <label for="comment-area" class="label-for-input">Comment</label>
-                <textarea name="comment-area" id="comment-area" class="comment-area" cols="30" rows="10" placeholder="Text input"></textarea>
-                <div class="checkbox-area">
-                    <input type="checkbox" name="user-privacy" id="user-privacy">
-                    <label for="user-privacy" class="label-checkbox">
-                        <span class="checkbox-tick">
-                            <svg>
-                                <use href="./images/icons.svg#icon-tick" width="16" height="16"></use>
-                            </svg>
-                        </span>I accept the terms and conditions of the <a href="/">Privacy Policy</a>
-                    </label>
+                <div class="form-content">
+                    <label for="user-name" class="label-for-input">Name</label>
+                    <input type="text" class="modal-input" id="user-name">
+                    <label for="user-phone" class="label-for-input">Phone</label>
+                    <input type="text" class="modal-input" id="user-phone">
+                    <label for="user-email" class="label-for-input">Email</label>
+                    <input type="text" class="modal-input" id="user-email">
+                    <label for="comment-area" class="label-for-input">Comment</label>
+                    <textarea name="comment-area" id="comment-area" class="comment-area" cols="30" rows="10" placeholder="Text input"></textarea>
+                    <div class="checkbox-area">
+                        <input type="checkbox" name="user-privacy" id="user-privacy">
+                        <label for="user-privacy" class="label-checkbox">
+                            <span class="checkbox-tick">
+                                <svg>
+                                    <use href="./images/icons.svg#icon-tick" width="16" height="16"></use>
+                                </svg>
+                            </span>I accept the terms and conditions of the <a href="/">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn">Send</button>
                 </div>
-                <button type="submit" class="submit-btn">Send</button>
             </form>
         </div>
     </div>
