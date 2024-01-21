@@ -366,13 +366,30 @@
             <form>
                 <div class="form-content">
                     <label for="user-name" class="label-for-input">Name</label>
-                    <input type="text" class="modal-input" id="user-name">
+                    <div class="input-wrap">
+                        <input type="text" class="modal-input" id="user-name">
+                        <svg class="input-wrap-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-user-icon"></use>
+                        </svg>
+                    </div>
                     <label for="user-phone" class="label-for-input">Phone</label>
-                    <input type="text" class="modal-input" id="user-phone">
+                    <div class="input-wrap">
+                        <input type="text" class="modal-input" id="user-phone">
+                        <svg class="input-wrap-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone-icon"></use>
+                        </svg>
+                    </div>
                     <label for="user-email" class="label-for-input">Email</label>
-                    <input type="text" class="modal-input" id="user-email">
-                    <label for="comment-area" class="label-for-input">Comment</label>
-                    <textarea name="comment-area" id="comment-area" class="comment-area" cols="30" rows="10" placeholder="Text input"></textarea>
+                    <div class="input-wrap">
+                        <input type="text" class="modal-input" id="user-email">
+                        <svg class="input-wrap-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email-icon"></use>
+                        </svg>
+                    </div>
+                    <div class="comment-wrap">
+                        <label for="user-comment" class="label-for-input">Comment</label>
+                        <textarea name="user-comment" id="user-comment" class="comment-area" cols="30" rows="10" placeholder="Text input"></textarea>
+                    </div>
                     <div class="checkbox-area">
                         <input type="checkbox" name="user-privacy" id="user-privacy">
                         <label for="user-privacy" class="label-checkbox">
