@@ -707,11 +707,11 @@ p{
     border: none;
 }
 
-.modal .close-btn:hover > .close-icon{
+.modal .close-btn:hover .close-icon{
     fill: white;
 }
 
-.modal .close-btn:focus > .close-icon{
+.modal .close-btn:focus .close-icon{
     fill: white;
 }
 
@@ -823,11 +823,11 @@ p{
 }
 
 .submit-btn:hover{
-    background: var(--OCEAN, #404BBF);
+    background: #404BBF;
 }
 
 .submit-btn:focus{
-    background: var(--OCEAN, #404BBF);
+    background: #404BBF;
 }
 
 .label-for-input{
@@ -857,11 +857,11 @@ p{
     margin-bottom: 8px;
 }
 
-.modal-input:focus > .input-wrap-icon{
+.modal-input:focus .input-wrap-icon{
     fill: #4d5ae5;
 }
 
-.checkbox-tick-area:checked > .checkbox-tick{
+.checkbox-tick-area:checked .checkbox-tick{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
