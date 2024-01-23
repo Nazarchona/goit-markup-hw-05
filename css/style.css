@@ -746,6 +746,10 @@ p{
     border-color: #4D5AE5;
 }
 
+.modal-input:focus + .input-wrap-icon{
+    fill: #4d5ae5;
+}
+
 .input-wrap-icon{
     position: absolute;
     left: 16px;
@@ -792,7 +796,7 @@ p{
     margin-bottom: 24px;
 }
 
-.checkbox-area .checkbox-tick-area:checked .checkbox-tick{
+.checkbox-tick-area:checked .checkbox-tick{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -804,14 +808,16 @@ p{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
     width: 16px;
     height: 16px;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-area .checkbox-tick .link-to-policy{
+.link-to-policy{
     color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .submit-btn{
@@ -866,9 +872,7 @@ p{
     margin-bottom: 8px;
 }
 
-.modal-input:focus .input-wrap-icon{
-    fill: #4d5ae5;
-}
+
 
 
 
