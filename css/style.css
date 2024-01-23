@@ -792,6 +792,11 @@ p{
     margin-bottom: 24px;
 }
 
+.checkbox-area .checkbox-tick-area:checked .checkbox-tick{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
 
 .checkbox-tick{
     border-radius: 2px;
@@ -806,7 +811,7 @@ p{
 }
 
 .checkbox-area .checkbox-tick .link-to-policy{
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .submit-btn{
@@ -865,11 +870,7 @@ p{
     fill: #4d5ae5;
 }
 
-.checkbox-tick-area:checked {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
+
 
 
 
