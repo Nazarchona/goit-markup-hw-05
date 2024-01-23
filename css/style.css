@@ -796,23 +796,22 @@ p{
     margin-bottom: 24px;
 }
 
-.checkbox-tick-area:checked .checkbox-tick{
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
-
 .checkbox-tick{
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
     width: 16px;
     height: 16px;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-tick-area:checked + .checkbox-tick{
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
 
 .link-to-policy{
