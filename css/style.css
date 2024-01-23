@@ -788,6 +788,10 @@ p{
     letter-spacing: 0.04em;
 }
 
+.checkbox-area{
+    margin-bottom: 24px;
+}
+
 
 .checkbox-tick{
     border-radius: 2px;
@@ -861,7 +865,7 @@ p{
     fill: #4d5ae5;
 }
 
-.checkbox-tick-area:checked .checkbox-tick{
+.checkbox-tick-area:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
