@@ -597,8 +597,9 @@ address{
     border-radius: 4px;
 }
 
-.subscribe-btn-icon{
+.subscribe-btn svg{
     margin-left: 16px;
+    fill: #ffffff;
 }
 
 .subscribe-area{
@@ -833,7 +834,6 @@ p{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-top: 24px;
 }
 
 .submit-btn:hover{
